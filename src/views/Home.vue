@@ -17,6 +17,10 @@ export default {
     name() {
       this.$store.dispatch('add')
     }
+  },
+  mounted() {
+    // 测试设置state
+    this.$store.state = {} // error
   }
 }
 </script>
